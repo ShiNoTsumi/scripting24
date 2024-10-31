@@ -75,6 +75,7 @@ section.featured{
 
 section.featured h2{
     background-color: #878787;
+    margin: auto;
     max-width: 800px;
     margin-bottom: 20px;
 }
