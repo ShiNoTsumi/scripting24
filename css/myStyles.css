@@ -73,7 +73,7 @@ section.featured{
 section.featured h2{
     background-color: #878787;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1400px;
     margin-bottom: 20px;
 }
 
@@ -173,7 +173,7 @@ p.alternate{
     max-height: 850px;
 }
 .carousel-inner{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
