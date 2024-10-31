@@ -1,0 +1,217 @@
+header{
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+    width: 100vw;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-right: 1px;
+    color: white;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(134, 134, 36);
+}
+
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.gruppo-regular {
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+  
+header p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 80px;
+    font-family: "Pirata One", system-ui;
+}
+
+h2{
+    font-size: 60px;
+    color: white;
+    font-family: "Pirata One", system-ui;
+}
+
+h3{
+    color: white;
+    font-size: 35px;
+    font-family: "Pirata One", system-ui;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(30, 30, 30);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+nav li a{
+    display: block;
+    font-size: 25px;
+    color: #ffffff;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    float: inline-start;
+    font-weight: bold;
+    font-family: "Gruppo", sans-serif;
+}
+
+nav li a:hover:not(.active){
+    background-color: #111;
+    color: rgb(134, 134, 36);
+}
+
+.img:hover{
+    box-shadow: 0 8px 16px 0 rgb(134, 134, 36), 0 6px 20px 0 rgb(134, 134, 36);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Gruppo", sans-serif;
+    font-size: 25px;
+}
+
+img{
+    border: 10px solid black;
+}
+
+section.left{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    width: 80vw;
+    padding-top: 1px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: left;
+    border: solid 1px rgb(37, 37, 37);
+}
+
+section.left li{
+    font-size: 25px;
+    font-family:"Gruppo", sans-serif;
+    font-style: italic;
+}
+
+section.right{
+    text-align: right;
+    margin-left: 275px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    width: 80vw;
+    padding-top: 1px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: solid 1px rgb(37, 37, 37);
+}
+
+section.right li{
+    text-align: right;
+    list-style-position: inside;
+    font-size: 25px;
+    font-family:"Gruppo", sans-serif;
+    font-style: italic;
+}
+
+section.bottom{
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+    padding-top: 1px;
+    padding-bottom: 50px;
+    width: 100vw;
+    padding-right: 1px;
+    margin: auto;
+    color: white;
+}
+
+p{
+    font-size: 25px;
+    font-family: "Gruppo", sans-serif;
+}
+
+section.bottom li{
+    padding-right: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    list-style-position: inside;
+    margin-right: 45px;
+    font-weight: bolder;
+}
+
+section.bottom li a:hover{
+    color: rgb(134, 134, 36); 
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+    padding-top: 1px;
+    width: 100vw;
+    margin: auto;
+    color: white
+}
+
+footer p{
+    font-style: italic;
+}
+
+footer li{
+    color: white;
+    text-align: center;
+    padding: 10px;  
+    list-style-position: inside;
+    margin-right: 45px;
+    font-weight: bolder;
+}
+
+footer li a:hover{
+    color: rgb(134, 134, 36); 
+    text-shadow: 0px 0px 4px white;
+}
+
+footer.p{
+    font-style: italic;
+}
+
+button{
+    border: none;
+    background-color: rgb(134, 134, 36);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 100vw;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.button:hover{
+    background-color: black;
+    color: rgb(134, 134, 36);
+}
