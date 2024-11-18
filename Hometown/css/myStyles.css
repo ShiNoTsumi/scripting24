@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    background-image: url(../images/Background.jpg);
+    background-position: bottom;
+}
+.quintessential-regular {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nokora-thin {
+    font-family: "Nokora", serif;
+    font-weight: 100;
+    font-style: normal;
+} 
+nav{
+    font-size: 30px;
+    background-color: #731212;
+    font-family: "Quintessential", serif;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+header{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../images/Walk.jpg);
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-size: cover;
+}
+header#geography{
+    background-image: url(../images/Mountains.jpg);
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 500px;
+}
+header#people{
+    background-image: url(../images/People.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header#economy{
+    background-image: url(../images/Firewood.jpg);
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 500px;
+}
+header#attractions{
+    background-image: url(../images/PaddleBoard.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 400px;
+}
+header#gallery{
+ background-image: url(../images/Gallery.jpg);
+ background-position: center;
+ background-size: cover;
+} 
+header#gallery p{
+    color: #731212;
+}
+header#gallery h1{
+    margin-top: 30px;
+    color: #731212;
+}
+header p{
+    font-family: "Nokora", serif;
+    color: white;
+    font-size: 40px;
+}
+footer{
+    background-color: #731212;
+    margin: 0;
+    margin-top: 500px;
+}
+footer a{
+    font-size: 17px;
+    margin: 0;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: inline-flex
+}
+footer a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    box-shadow: 10px 10px #400D0D;
+}
+section{
+    margin-top: 200px;
+}
+section#info{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+section#map{
+    background-color: #731212;
+    color: white;
+    margin-top: 400px;
+}
+section#map p{
+    width: 75%;
+    margin: auto;
+}
+section#area{
+    padding-top: 200px;
+}
+section#area img{
+    max-height: 1000px;
+    width: 1800px;
+    padding-top: 120px;
+}
+section#area p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+section#population{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+section#population p{
+    width: 80%;
+    margin: auto;
+}
+section#community{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section#community img{
+   max-height: 900px;
+   width: 60%;
+}
+section#community p{
+    width: 60%;
+    margin: auto;
+}
+section#jobs{
+    margin-top: 500px;
+}
+section#jobs h2{
+    padding-top: 200px; 
+}
+section#jobs p{
+    padding-bottom: 200px;
+}
+section#main{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 350px;
+}
+section#other{
+    width: 80%;
+    margin: auto;
+    margin-top: 400px;
+}
+section#pexels{
+    margin-top: 300px;
+}
+section#pexels img{
+    height: 340px;
+    width: 500px;
+    margin: auto;
+}
+section#pexels img:hover{
+    box-shadow: 10px 10px 5px #400D0D;
+
+}
+section#otherwebsites img{
+   height: 340px;
+   width: 500px;
+   margin: auto;  
+}
+section#otherwebsites img:hover{
+    box-shadow: 10px 10px 5px #400D0D;
+
+}
+p{
+    font-size: 30px;
+    font-family: "Nokora", serif;
+    padding: 10px;
+}
+h1{
+    font-family: "Quintessential", serif;
+    font-size: 100px;
+    color: white;
+}
+h2{
+    font-family: "Quintessential", serif; 
+    font-size: 75px;
+    padding-bottom: 20px;
+}
+h3{
+    color: white;
+    font-family: "Quintessential", serif;
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+@media (min-width: 200px) {
+    .carousel-item img{
+        width: auto;
+        height: 800px;
+        max-height: 800px;
+    }
+}
+iframe{
+    
+    height: 900px;
+    width: 75%;
+    padding-top: 20px;
+}
+.btn{
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 0;
+    width: 300px;
+}
