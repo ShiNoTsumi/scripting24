@@ -177,17 +177,17 @@ function writeSix(){
     if(path=="dense"){
         pathMessage = "They decide to keep on going through the dense vegetation in hopes it will eventually end and lead to somewhere. Both "+name+" and "+nametwo+" walk while carefully slipping through the dense jungle for what seems like ages. Eventually they come to a clearing where the jungle seems to abruptly end. There is instead a vast sprawling flatland and hills far in the distance. "+nametwo+" recognizes these hills as the ones that were near her villages and so they both head across the field. Within a day they reach said village. The treacherous journey was finally behind them and "+name+" had survived the jungle along with their prized "+poss+" and the new friend they made along the way."
 
-        document.getElementById('finalimg').src = '../images/dense.jpg';
+        document.getElementById('finalimg').src = 'images/dense.jpg';
 
     }else if(path=="footprints"){
         pathMessage = "They both decide to follow the footprints in hopes it will lead to any civilization where they can get some help. After following these footsteps for a long time they come to an end in what seems to be a wall of trees with one opening. "+name+" suggests only one of them check it out, so "+name+" gives their "+poss+" to "+nametwo+" in order to keep it safe and heads into the opening. Within is a tribal village and when "+name+" 's pressence becomes known the locals were not welcoming. They charged at "+name+" so "+name+" takes their "+weap+" and starts to fight off the tribe. "+name+" yells back to "+nametwo+', "run i will hold them off." '+nametwo+" runs and runs not looking back. They run for ages and keep running until eventually stoping and looking around. They are out of the jungle it was finally over. But the new friend they had made that saved their life not once but two times now, was not so lucky. "+nametwo+ " continued to walk as far away from the jungle as they could holding "+name+"'s "+poss+" close as it's the only thing they have left to remember the new friend they lost."
 
-        document.getElementById('finalimg').src = '../images/tribalvillage.jpg';
+        document.getElementById('finalimg').src = 'images/tribalvillage.jpg';
 
     }else if(path=="water"){
         pathMessage = "Deciding to follow the sound of rushing water to try to follow it to civilization, both "+name+" and "+nametwo+" depart. They come to an opening with a wide, fast flowing river. Both of them follow along the river for what feels like days, until eventually chancing upon a campsite on the other side of the river. This was there chance a campsite must mean civilization or someone who could help. The only problem being crossing the river. They decide it is worth the risk, setting out across the river. They hold hands to keep with eachother and slowly make it farther and farther across the river until they reach the mid point. The current is much stronger here, both of them are barely able to keep their footing. "+nametwo+" is exhausted they have been out in the wilderness far too long without the proper nutrition. Their legs give out and they quickly start getting pulled by the current. "+name+" holds them tightlty but is struggling to keep balance they try their hardest to hold on but eventually their hand slips and "+nametwo+ " is pulled under and away by the current. "+name+ ", devasted but not giving up continues to cross the river and makes it to the other side and heads over to the campsite. They are met with some campers who despite completely ignorant of the situation took "+name+ " in and nursed them back to health. "+name+" had finally escaped that wretched jungle but lost their new companion along the way."
 
-        document.getElementById('finalimg').src = '../images/river.jpg';    
+        document.getElementById('finalimg').src = 'images/river.jpg';    
 
     };
     console.log(pathMessage);
