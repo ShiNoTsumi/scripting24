@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadLib</title>
+
+    <link rel="stylesheet" href="css/Mystyle.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid text-center py-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Jungle Escape</h1>
+                    <h2>By: Delane Kane</h2>
+                </div>
+            </div>
+        </div>  
+    </header>
+
+    <section class="subheader">
+        <div class="container-fluid text-center text-white">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Choose Your Fate</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-6">
+                    <p class="py-5">
+                        Welcome to the start of this adventure story where you control the path of a character through their journey. You will input words along with the story to taolor it to you. To start please choose a name for your character as well as something they have as well as a prized possesion.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/emptybook.jpg" class="img-fluid" alt="empth book with pencil">
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-10 p-0">
+                    <form action="javascript:writeOne();">
+                        <div class="form-group">
+                            <label for="name"><p>Name:</p></label>
+                            <input id="name" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="possession"><p>Possession:</p></label>
+                            <input id="possession" class="form-control" type="text">
+                        </div>
+
+                        <button type="submit" class="mt-5 btn text-white btn-block btn-outline-dark bg-dark"><h2>Continue</h2></button>
+                    </form>
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formtwo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-6">
+                    <p class="py-5" id="outputone">
+                    
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/stranded.jpg" class="img-fluid" alt="man in jungle">
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-10 p-0">
+                    <form action="javascript:writeTwo();" >
+                        <div class="form-group">
+                            <label for="weapon"><p>Weapon:</p></label>
+                            <input id="weapon" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="resource"><p>Resource:</p></label>
+                            <input id="resource" class="form-control" type="text">
+                        </div>
+
+                        <button type="submit" class="btn mt-5 text-white btn-block bg-dark btn-outline-dark"><h2>Continue</h2></button>
+                    </form>
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formthree">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-6">
+                    <p class="py-5" id="outputtwo">
+                    
+                    </p>
+                </div>
+                <div class="col-sm-4"> 
+                    <img src="images/searching.jpg" class="img-fluid" alt="man walking through jungle">
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-10 p-0">
+                    <form action="javascript:writeThree();" >
+                        <div class="form-group">
+                            <label for="plant"><p>Type of Plant:</p></label>
+                            <input id="plant" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="animal"><p>Wild Animal:</p></label>
+                            <input id="animal" class="form-control" type="text">
+                        </div>
+
+                        <button type="submit" class="btn mt-5 btn-block text-white bg-dark btn-outline-dark"><h2>Continue</h2></button>
+                    </form>
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formfour">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-6">
+                    <p class="py-5" id="outputthree">
+                    
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/plants.jpg" class="img-fluid" alt="Plants in a jungle">
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-10 p-0">
+                    <form action="javascript:writeFour();" >
+                        <div class="form-group">
+                            <label for="structure"><p>Structure:</p></label>
+                            <input id="structure" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="nametwo"><p>New Name:</p></label>
+                            <input id="nametwo" class="form-control" type="text">
+                        </div>
+
+                        <button type="submit" class="btn mt-5 btn-block text-white bg-dark btn-outline-dark"><h2>Continue</h2></button>
+                    </form>
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="formfive">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-6">
+                    <p class="py-5" id="outputfour">
+                    
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/structure.jpg" class="img-fluid" alt="structure in a jungle">
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-10 p-0">
+                    <form action="javascript:writeFive();" >
+                        <div class="form-group">
+                            <label for="shelter"><p>Shelter:</p></label>
+                            <input id="shelter" class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="predator"><p>Predator:</p></label>
+                            <input id="predator" class="form-control" type="text">
+                        </div>
+
+                        <button type="submit" class="btn mt-5 btn-block text-white bg-dark btn-outline-dark"><h2>Continue</h2></button>
+                    </form>
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formsix">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-6">
+                    <p class="py-5" id="outputfive">
+                    
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/night.jpg" class="img-fluid" alt="jungle at nightime">
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-10 p-0">
+                    <form action="javascript:writeSix();">
+                        <div class="form-group">
+                            <p>Path:</p>
+                            <div class="form-check">
+                                <label for="dense" class="form-check-label">
+                                <p><input value="dense" class="form-check-inline" type="radio" name="path" id="dense">Dense Path</p>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="footprints" class="form-check-label">
+                                <p><input value="footprints" class="form-check-inline" type="radio" name="path" id="footprints">Footprints</p>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="water" class="form-check-label">
+                                <p><input value="water" class="form-check-inline" type="radio" name="path" id="water">Sound of Water</p>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn mt-5 btn-block text-white btn-outline-dark bg-dark"><h2>Ending</h2></button>
+                    </form>
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ending">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-6">
+                    <p class="py-5" id="outputsix">
+                    
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img id="finalimg" src="images/dense.jpg" class="img-fluid" alt="dense jungle">
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-1 bg-dark"></div>
+                <div class="col-sm-10 end">
+                   <h2>Thanks for reading ~</h2>
+                </div>
+                <div class="col-sm-1 bg-dark"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 p-0">
+                    <button type="button" class="btn btn-block text-white bg-secondary" onclick="javascript:refresh();"><p>Restart</p></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="js/java.js"></script>
+
+</html>
